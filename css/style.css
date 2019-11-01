@@ -51,6 +51,11 @@
     padding-bottom: 100px;
 }
 
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #cta-1 h3 {
     color: rgb(85, 85, 85);
 }
