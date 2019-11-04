@@ -1062,6 +1062,7 @@ footer img {
 
 .service-box {
     margin-bottom: 30px;
+    min-height: 200px;
 }
 
 .service-box h3 {
