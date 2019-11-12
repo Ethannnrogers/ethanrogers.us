@@ -1,5 +1,17 @@
 $(window).load(function () {
 
+// FAQ 
+
+$(document).ready(function() {
+	$('#body-left .slide').each(function() {
+		var tis = $(this), state = false, answer = tis.next('div').hide().css('height','auto').slideUp();
+		tis.click(function() {
+			state = !state;
+			answer.slideToggle(state);
+			tis.toggleClass('active',state);
+		});
+	});
+});
 
 $(".process-btn").click(function() {
     console.log("click");

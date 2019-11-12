@@ -8,8 +8,38 @@
     color: #ffbf00!important;
 } */
 
+
+.slide {
+    transition: .2s;
+    font-size: 1.7em!important;
+    margin: 30px 0 30px 0;
+}
+
+.slide:hover h2{
+    color: #ffbf00!important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    transition: .2s;
+}
+
 #body-left p{
     font-size: 1.3em!important;
+}
+
+.resource-link {
+    font-size: 1.5em!important;
+    color: rgb(41, 41, 41);
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+}
+
+.resource-link:hover {
+    color: #ffbf00;
+}
+
+.resource-img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 35px;
 }
 
 #body {
